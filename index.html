@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrador de Multas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<bod>
+    <header id="cabecalho">
+        <h1 class="titulo">Registrador de Multas e Infrações</h1>
+        <h2 class="titulo">Esta página verifica sua velocidade, e defini multas ou infrações.</h2>
+    </header>
+    <br>
+    <main id="principal">
+        <section id="sessao">
+            <article id="parte">
+                <h3 class="titulo3">Digite o limite de velocidade da via, e a velocidade do veículo.</h3>
+              <input type="text" id="caixa1" placeholder="Limite de Velocidade">
+              <input type="text" id="caixa2" placeholder="Velocidade Percorrida">
+              <input type="button" value="Verifcar" id="botao" onclick="clicar()">
+              <div id="res"></div>
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

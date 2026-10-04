@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NZ+Guides&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    min-height: 100vh;
+    background-color: #0a1128;
+    background-image: linear-gradient(rgba(56, 189, 248, 0.07)) 1px, transparent 1px,
+    linear-gradient(90deg, rgba(56, 189, 248, 0.07) 1px, transparent 1px),
+    radial-gradient(circle at 15% 20%, #1e3a8a 0%, transparent 35%),
+    radial-gradient(circle at 85% 80%, #0e7490 0% transparent 35%);
+    background-size: 40px 40px, 40px 40px, auto, auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+#cabecalho {
+      font-family: "Roboto", sans-serif;
+      font-size: larger;
+
+}
+.titulo3 {
+    font-size: 25px;
+}
+
+
+#principal {
+    margin-top: 100px;
+}
+
+#sessao {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 80px;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+#caixa1 , #caixa2, #botao{
+    padding: 20px;
+    font-size: large;
+  
+}
+
+#res {
+    margin: 30px;
+    color: white;
+    font-size: larger;
+}
